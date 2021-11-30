@@ -1,6 +1,5 @@
-.navbar{
-    background-color: black;
-
+.header{
+    background-color: rgba(7, 1, 1, 0.993);
 }
 .main-nav{
     display: flex;
@@ -13,6 +12,7 @@
 .nav-menu {
     display: flex;
     transition: all 0.5s ease-in-out;
+    font-family: 'Ubuntu', sans-serif;
 }
 .nav-menu a{
  text-decoration: none;
@@ -24,22 +24,32 @@
 .toggle{display:none ;}
 .corsbar{color: red;
 font-size: 20px;}
+.resume{
+    color:rgb(241, 248, 241);
+    border:1px solid green;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: green;
+}
+
 @media only screen and (max-width: 445px){
  .toggle{
  display: block;
     }
   .nav-menu{
       flex-direction: column;
+      text-align: center;
     position: absolute;
     width: 100%;
       right:0;
       top:40px;
-      background-color: rgba(0, 0, 0, 0.918);
       padding-top: 10px;
       padding-bottom: 10px;
   }
    .nav-menu a{
-       margin-top:5px
+       margin-top:5px;
+       background-color: green;
+       display:inline;
    }
    .nav-menu.close {
        top:-100%;

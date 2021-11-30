@@ -1,0 +1,28 @@
+.about-img{
+    width: 300px;
+    height: 300px;
+    border: 20px solid green;
+    border-radius: 5px;
+}
+.about_container{
+}
+.about-title{
+    font-weight: 600;
+    font-family: 'Lora', serif;
+}
+.about-title::after{
+    content: '';
+    display: block;
+    width: 133px;
+    height: 2px;
+    background-color: rgb(0, 255, 64);
+}
+
+.hire-info{
+    font-family: 'Lora', serif;
+}
+.about-info-text p{
+    font-size: 17px;
+    font-family: 'Lora', serif;
+}
+

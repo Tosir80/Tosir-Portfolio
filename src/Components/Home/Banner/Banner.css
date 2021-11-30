@@ -1,0 +1,57 @@
+.banner-bg{
+    background:url('../../../img/Untitled-1.png');
+    padding-top: 10px;
+    height: 80vh;
+    width: 100%;
+    background-size: cover;
+    right: 0;
+}
+.banner-info .hi{
+    color:white;
+    font-size: 30px;
+    font-family: 'Lora', serif;
+}
+.banner-info h4{
+    color:green;
+    font-weight: 600;
+    font-size: 40px;
+    font-family: 'Lora', serif;
+}
+.typer{
+    font-size: 20px;
+   
+    font-weight: 700;
+color: rgb(255, 196, 0);
+}
+.info-tpyer{
+    padding-top: 30px;
+}
+.typer h2{
+     color:orangered;
+}
+.typer h3{
+    color:white;
+}
+
+.social-icon{}
+.social-icon .icon1{
+    color:rgb(7, 141, 41);
+    font-size: 25px;
+    margin:5px;
+    cursor: pointer;
+
+}
+.social-icon .icon2{
+    color:rgb(8, 189, 221);
+    font-size: 28px;
+    margin:5px;
+    cursor: pointer;
+
+}
+.social-icon .icon3{
+    color:white;
+    font-size: 30px;
+    margin:5px;
+    cursor: pointer;
+
+}

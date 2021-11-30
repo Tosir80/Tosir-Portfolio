@@ -1,0 +1,29 @@
+[
+    {    "id":1,
+        "name":"Cycle Point E-commerce build with React",
+        "live":"https://cycle-point.web.app/",
+        "source":"https://github.com/Tosir80/Cycle-Point-ecommerce-project-client-side--12",
+        "details":"This is E-commerce project build with react js,In this have some basic functionality from customer side- Customer can add to cart product from product service.Customer can login by email and password or google account . Customer can see his product before he was added and remove order from his order dashboard.Here also have admin dashboard for maintain website functionality and add product in store" ,
+        "img": "/img/cycle-point-web-app-2021-11-30-16_12_34.jpg",
+        "img2":"/img/cycle-point-web-app-dashboard-2021-11-30-16_13_25.jpg",
+        "cover":"./cover/cycle.png"
+    },
+        { "id":2,
+        "name":"Travel MERN stack build with React",
+        "live":"https://tourism-website-7390f.web.app/",
+        "source":"https://github.com/Tosir80/Trevaling-Bd-11",
+        "details": "This is Mern Stack project build with react js,mongodb,Firbase.In this have some basic functionality from customer side- Customer can add to cart product from product service.Customer can login by email and password or google account . Customer can see his product before he was added and remove order from his order dashboard.Here also have admin dashboard for maintain website functionality and add product in store",
+        "img": "/img/tourism-website-7390f-web-app-2021-11-30-16_14_08.jpg",
+        "img2":"/img/tourism-website-7390f-web-app-myorder-2021-11-30-16_15_59.png",
+        "cover":"./cover/tour.png"
+    },
+    {   "id":3,
+        "name":"Dental Care website build with React",
+        "live":"https://dental-care-services.web.app/",
+        "source":"https://github.com/Tosir80/Health-Care-10",
+        "details": "This is Health Care  project build with react js,In this have some basic functionality from customer.In this project customer can see the details about service and also add to cart services .Customer can login and also logout form here" ,
+        "img": "/img/dental-care-services-web-app-2021-11-30-16_17_51.jpg",
+        "img2":"/img/dental-care-services-web-app-about-2021-11-30-16_18_25.png",
+        "cover":"./cover/dental.png"
+    }
+]
