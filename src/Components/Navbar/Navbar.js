@@ -23,13 +23,15 @@ const Navbar = () => {
                 <FaBars />
               )}
             </div>
-            <div className={click ? 'nav-menu' : 'nav-menu close'}>
-              <HashLink  to='/#home'>Home</HashLink>
-              <HashLink  to='/#about'>About</HashLink>
-              <HashLink  to='/#service'>Service</HashLink>
-              <HashLink  to='/#project'>Projects</HashLink>
-              <HashLink  to='/#contact'>Contact</HashLink>
-              <NavLink  to='/resume/Resume_Tosir.pdf' target='_blank' download>
+            <div
+              className={click ? 'nav-menu' : 'nav-menu close'}
+            >
+              <HashLink to='/#home'>Home</HashLink>
+              <HashLink to='/#about'>About</HashLink>
+              <HashLink to='/#service'>Service</HashLink>
+              <HashLink to='/#project'>Projects</HashLink>
+              <HashLink to='/#contact'>Contact</HashLink>
+              <NavLink to='/resume/Resume_Tosir.pdf' target='_blank' download>
                 <span className='resume'>Resume</span>
               </NavLink>
             </div>

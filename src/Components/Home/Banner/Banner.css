@@ -8,20 +8,20 @@
 }
 .banner-info .hi{
     color:white;
-    font-size: 30px;
+    font-size: 20px;
     font-family: 'Lora', serif;
 }
-.banner-info h4{
+.banner-info .tosir{
     color:green;
     font-weight: 600;
-    font-size: 40px;
+    font-size: 100px;
     font-family: 'Lora', serif;
 }
 .typer{
-    font-size: 20px;
+    font-size: 30px;
    
     font-weight: 700;
-color: rgb(255, 196, 0);
+color: rgb(63, 245, 18);
 }
 .info-tpyer{
     padding-top: 30px;
@@ -33,7 +33,7 @@ color: rgb(255, 196, 0);
     color:white;
 }
 
-.social-icon{}
+
 .social-icon .icon1{
     color:rgb(7, 141, 41);
     font-size: 25px;
@@ -54,4 +54,30 @@ color: rgb(255, 196, 0);
     margin:5px;
     cursor: pointer;
 
+}
+.banner-btn{
+    margin-top:10px;
+}
+
+.banner-btn button{
+    margin:10px;
+    outline:none;
+    border-radius: 30px; 
+   background-color: transparent;
+    border:2px solid rgb(10, 253, 2);
+    color:green;
+    font-size: 20px;
+    transition: all 0.5s ease-in-out;
+
+}
+.banner-btn .banner-2{
+     padding:0 10px;
+}
+.banner-btn .banner-1{
+       padding:0 25px;
+}
+.banner-btn button:hover{
+    background-color: rgb(16, 180, 10);
+    color:rgb(224, 208, 208);
+    font-weight: 600;
 }

@@ -20,7 +20,7 @@ const Project = () => {
         <Row>
           {project.map((item, index) => (
             <Col key={index}>
-              <Card className='my-4 project' data-aos='fade-right'>
+              <Card className='my-4 project' data-aos='fade-up'>
                 <Card.Img variant='top' src={item.cover} />
                 <Card.Body>
                   <Card.Title>{item.name}</Card.Title>

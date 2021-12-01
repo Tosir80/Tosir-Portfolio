@@ -17,12 +17,13 @@
 .nav-menu a{
  text-decoration: none;
  margin-left: 10px;
- font-size: 20px;
+ font-size: 18px;
  color:rgba(255, 255, 255, 0.788);
 }
 
 .toggle{display:none ;}
-.corsbar{color: red;
+.corsbar{color: rgb(253, 253, 253);
+    transition:all 0.5s ease-in-out;
 font-size: 20px;}
 .resume{
     color:rgb(241, 248, 241);
@@ -32,9 +33,10 @@ font-size: 20px;}
     background-color: green;
 }
 
-@media only screen and (max-width: 445px){
+@media only screen and (max-width: 500px){
  .toggle{
  display: block;
+ transition:all 0.5s ease-in-out;
     }
   .nav-menu{
       flex-direction: column;
@@ -49,7 +51,9 @@ font-size: 20px;}
    .nav-menu a{
        margin-top:5px;
        background-color: green;
+       border-radius: 50px;
        display:inline;
+       z-index: 1;
    }
    .nav-menu.close {
        top:-100%;

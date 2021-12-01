@@ -5,6 +5,9 @@ import { Col, Container, Row } from 'react-bootstrap';
 import './contact.css'
  import { ToastContainer, toast } from 'react-toastify';
   import 'react-toastify/dist/ReactToastify.css';
+  import { MdMarkEmailRead } from 'react-icons/md';
+  import { AiFillPhone  } from 'react-icons/ai';
+  import { BiMap } from 'react-icons/bi';
 const Contact = () => {
       const form = useRef();
 
@@ -38,11 +41,39 @@ const Contact = () => {
           <span>Contact Me</span>
         </h3>
         <Row>
-          <Col md={6} className='d-none d-md-block' data-aos='fade-right'>
-            <img width='100% ' src='/cover/form.png' alt='' />
+          <Col md={6} data-aos='fade-right'>
+            <div className='contact-info'>
+              <h3 className="text-danger  fs-1  ">Let's connect</h3>
+              <div>
+                <span className='email-icon'>
+                  <MdMarkEmailRead />
+                </span>
+                <span className='email-address'>
+                  <a href='mailto:tosiruzzzamantosir@gmail.com'>
+                    tosiruzzamantosir@gmail.com
+                  </a>
+                </span>
+              </div>
+              <div>
+                <span className='email-icon'>
+                  <AiFillPhone />
+                </span>
+                <span className='email-address'>
+                  <a href='tel:+8801779794012'>+8801779794012</a>
+                </span>
+              </div>
+              <div>
+                <span className='email-icon'>
+                  <BiMap />
+                </span>
+                <span className='email-address'>
+                  Kushtia ,Dhaka ,Bangladesh
+                </span>
+              </div>
+            </div>
           </Col>
-          <Col md={6}>
-            <div className='contact-form' data-aos='fade-left'>
+          <Col md={6} data-aos='fade-down' className='mt-5 mt-md-0'>
+            <div className='contact-form'>
               <form ref={form} onSubmit={sendEmail}>
                 <label>Name</label>
                 <input type='text' name='name' />
